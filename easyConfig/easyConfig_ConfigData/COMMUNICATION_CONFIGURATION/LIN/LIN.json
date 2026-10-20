@@ -1,0 +1,10 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "linScheduleTables" : [ ],
+  "linSignalTypes" : [ ],
+  "linChannels" : [ {
+    "name" : "LIN_1",
+    "channelId" : "4f6fa77a-fafc-45ed-839f-3495488dc6db",
+    "nodes" : [ ]
+  } ]
+}

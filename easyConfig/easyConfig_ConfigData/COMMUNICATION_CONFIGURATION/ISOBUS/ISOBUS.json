@@ -1,0 +1,8 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "ISOBUS",
+  "numberOfControllerApplications" : 0,
+  "j1939SafetyEnabled" : false,
+  "cycleTime" : "10",
+  "controllerApplications" : [ ]
+}

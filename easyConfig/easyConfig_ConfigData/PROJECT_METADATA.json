@@ -1,0 +1,14 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "pverPath" : "/app/easyConfig/input/40.ml300-bs.rts/FSP_PVER/",
+  "easyConfigVersion" : "3.17.0",
+  "pverVersion" : "BSW2003_40NM; 21",
+  "target" : "RC27-18/40",
+  "bodasBaseline" : "v01.30-bs",
+  "userId" : "66e6c216-1e42-4ccf-9543-d4c5c9ac475e",
+  "workflow" : "40.ml300-bs.rts",
+  "pid" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "bpid" : "7051d019-c222-4ccf-85d2-80014ba9450e",
+  "name" : "RC40",
+  "ptype" : "DERIVED"
+}

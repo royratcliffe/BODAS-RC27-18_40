@@ -1,0 +1,11 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "csaSizeConfig" : [ {
+    "coreZeroSize" : 70,
+    "coreOneSize" : 60
+  } ],
+  "stackSizeConfig" : [ {
+    "coreZeroSize" : 6528,
+    "coreOneSize" : 6528
+  } ]
+}

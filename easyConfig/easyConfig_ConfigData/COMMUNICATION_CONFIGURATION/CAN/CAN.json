@@ -1,0 +1,374 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "CANBUS",
+  "availableCanSettings" : [ {
+    "name" : "CanControllerBaudrateConfig_3",
+    "controllerSettingId" : "7666499d-dc97-4d76-8c4a-0af19d65775f",
+    "baudrate" : "125",
+    "samplingPoint" : "80",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_2",
+    "controllerSettingId" : "e02ec630-eaca-4466-8cd6-bcc61d7f04d1",
+    "baudrate" : "250",
+    "samplingPoint" : "80",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_1",
+    "controllerSettingId" : "03f07cc9-c4ea-4ff3-be18-e79c760ac01f",
+    "baudrate" : "500",
+    "samplingPoint" : "80",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_0",
+    "controllerSettingId" : "4cf5660f-8300-45b7-98b7-b8f94a94aaaa",
+    "baudrate" : "1000",
+    "samplingPoint" : "80",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_8",
+    "controllerSettingId" : "d0b06b9e-3f81-4af3-afc5-41b33eea9251",
+    "baudrate" : "125",
+    "samplingPoint" : "85",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_7",
+    "controllerSettingId" : "57c365fb-1775-4451-93b9-e277a1046989",
+    "baudrate" : "250",
+    "samplingPoint" : "85",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_6",
+    "controllerSettingId" : "4044c4a7-9e6e-4d14-b019-88564156ab12",
+    "baudrate" : "500",
+    "samplingPoint" : "85",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  }, {
+    "name" : "CanControllerBaudrateConfig_5",
+    "controllerSettingId" : "ed633465-a905-4987-a9e3-eeaf8348c6b3",
+    "baudrate" : "1000",
+    "samplingPoint" : "85",
+    "syncJumpWidth" : "4",
+    "tseg1" : null,
+    "tseg2" : null
+  } ],
+  "availableCanFDSettings" : [ {
+    "name" : "CanControllerBaudrateConfig_9_125k_125k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "125",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "c46abed3-d77c-4636-918c-58e2e3c0dc34"
+  }, {
+    "name" : "CanControllerBaudrateConfig_10_125k_250k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "250",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "aa416193-545f-431c-a69e-13ca343c6c50"
+  }, {
+    "name" : "CanControllerBaudrateConfig_11_125k_500k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "143ff2fb-1167-47a8-af93-486e59d4164f"
+  }, {
+    "name" : "CanControllerBaudrateConfig_12_125k_1000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "f2d33bfa-69f8-4d8d-8a69-7ef64e15a0bf"
+  }, {
+    "name" : "CanControllerBaudrateConfig_13_125k_2000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "bd90bac6-d32c-4bee-a8b6-ad43a8ddd1e7"
+  }, {
+    "name" : "CanControllerBaudrateConfig_14_250k_250k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "250",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "d7ac14da-633d-4340-a29c-484c6b5a7385"
+  }, {
+    "name" : "CanControllerBaudrateConfig_15_250k_500k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "116afc41-fee8-4cb6-835c-6a34cb138e39"
+  }, {
+    "name" : "CanControllerBaudrateConfig_16_250k_1000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "9b02b4d7-b6ab-47d1-9fc5-7cdd4eba615f"
+  }, {
+    "name" : "CanControllerBaudrateConfig_17_250k_2000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "9cb98680-df1f-45f2-9c53-283de43294d8"
+  }, {
+    "name" : "CanControllerBaudrateConfig_18_500k_500k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "55843152-c032-46a7-8255-8fa2b282483c"
+  }, {
+    "name" : "CanControllerBaudrateConfig_19_500k_1000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "2cfc3f48-7b04-42f7-8cb9-b5198fc3c733"
+  }, {
+    "name" : "CanControllerBaudrateConfig_20_500k_2000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "5d6b25fd-7102-4e52-85de-42b513d26c72"
+  }, {
+    "name" : "CanControllerBaudrateConfig_21_1000k_1000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "1000",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "ed4a1050-532d-4ac5-b996-ecdffda69d07"
+  }, {
+    "name" : "CanControllerBaudrateConfig_22_1000k_2000k_SP_80",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "1000",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "80",
+    "canFDControllerSettingsId" : "23732ad5-c025-480b-8c49-daa4d492c4f3"
+  }, {
+    "name" : "CanControllerBaudrateConfig_23_125k_125k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "125",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "d011aa3d-9497-4360-8403-ba2e90e4dd29"
+  }, {
+    "name" : "CanControllerBaudrateConfig_24_125k_250k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "250",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "0fc88160-bdc0-4c0b-bacb-a1e6823de7fe"
+  }, {
+    "name" : "CanControllerBaudrateConfig_25_125k_500k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "0ee68c4d-6a50-4f89-9c19-92eb339251b4"
+  }, {
+    "name" : "CanControllerBaudrateConfig_26_125k_1000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "8a8c4cba-d965-4b80-a1ac-722eb41c797b"
+  }, {
+    "name" : "CanControllerBaudrateConfig_27_125k_2000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "125",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "79690d8f-9e1a-47c4-84ed-1bffec47a83c"
+  }, {
+    "name" : "CanControllerBaudrateConfig_28_250k_250k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "250",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "76a5d855-8b29-41e6-8d77-8b38f241b341"
+  }, {
+    "name" : "CanControllerBaudrateConfig_29_250k_500k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "21579cc6-5697-4d41-8540-d87362bba1fa"
+  }, {
+    "name" : "CanControllerBaudrateConfig_30_250k_1000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "c5b61e80-0ed4-4951-aa9c-9c2898924ae0"
+  }, {
+    "name" : "CanControllerBaudrateConfig_31_250k_2000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "250",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "859cb60d-ae09-4ef4-bfe0-5deaefc5be9e"
+  }, {
+    "name" : "CanControllerBaudrateConfig_32_500k_500k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "500",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "1fd7c67f-e84a-4641-8728-3c0c58cf45dc"
+  }, {
+    "name" : "CanControllerBaudrateConfig_33_500k_1000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "6cefa877-5a4d-44f9-9120-0527d46d4596"
+  }, {
+    "name" : "CanControllerBaudrateConfig_34_500k_2000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "500",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "0abd3372-6116-4509-b4a8-5f718fa5c57e"
+  }, {
+    "name" : "CanControllerBaudrateConfig_35_1000k_1000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "1000",
+    "dataBaudrate" : "1000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "1963ace3-a254-4193-b2d3-e07c62180090"
+  }, {
+    "name" : "CanControllerBaudrateConfig_36_1000k_2000k_SP_85",
+    "syncJumpWidth" : "4",
+    "nominalBaudrate" : "1000",
+    "dataBaudrate" : "2000",
+    "samplingPoint" : "85",
+    "canFDControllerSettingsId" : "fc6b25f8-2bf4-4944-9f96-24de85987d18"
+  } ],
+  "canChannels" : [ {
+    "channelId" : "d98848b2-0af2-4d0b-aca6-dad89baee6a6",
+    "name" : "CAN_1",
+    "controllerId" : 0,
+    "wakeUpEnabled" : false,
+    "wufSupported" : false,
+    "canFDConfigured" : false,
+    "wufConfig" : null,
+    "canLegacy" : {
+      "channelId" : "51f8c0fa-b104-492b-a28c-4fb12d802b35",
+      "noOfReceiveDataBoxes" : 30,
+      "noOfTransmitDataBoxes" : 30,
+      "receiveBufferSize" : 50,
+      "transmitBufferSize" : 50
+    },
+    "canFDLegacy" : {
+      "channelId" : "51f8c0fa-b104-492b-a28c-4fb12d802b35",
+      "noOfReceiveDataBoxes" : 1,
+      "noOfTransmitDataBoxes" : 1,
+      "receiveBufferSize" : 1,
+      "transmitBufferSize" : 1
+    },
+    "appliedCanSetting" : "e02ec630-eaca-4466-8cd6-bcc61d7f04d1",
+    "appliedCanFDSetting" : "9cb98680-df1f-45f2-9c53-283de43294d8",
+    "frames" : [ ]
+  }, {
+    "channelId" : "3f9169f6-a674-462e-84aa-32573473e8d2",
+    "name" : "CAN_2",
+    "controllerId" : 1,
+    "wakeUpEnabled" : false,
+    "wufSupported" : false,
+    "canFDConfigured" : false,
+    "wufConfig" : null,
+    "canLegacy" : {
+      "channelId" : "3c808c9b-ed20-4ce7-8434-fae28172cb15",
+      "noOfReceiveDataBoxes" : 30,
+      "noOfTransmitDataBoxes" : 30,
+      "receiveBufferSize" : 50,
+      "transmitBufferSize" : 50
+    },
+    "canFDLegacy" : {
+      "channelId" : "3c808c9b-ed20-4ce7-8434-fae28172cb15",
+      "noOfReceiveDataBoxes" : 1,
+      "noOfTransmitDataBoxes" : 1,
+      "receiveBufferSize" : 1,
+      "transmitBufferSize" : 1
+    },
+    "appliedCanSetting" : "e02ec630-eaca-4466-8cd6-bcc61d7f04d1",
+    "appliedCanFDSetting" : "9cb98680-df1f-45f2-9c53-283de43294d8",
+    "frames" : [ ]
+  }, {
+    "channelId" : "f96468dc-e598-4cc0-8f0c-bb018557749c",
+    "name" : "CAN_3",
+    "controllerId" : 0,
+    "wakeUpEnabled" : false,
+    "wufSupported" : false,
+    "canFDConfigured" : false,
+    "wufConfig" : null,
+    "canLegacy" : {
+      "channelId" : "af19470a-b122-4303-8139-9b4552a11003",
+      "noOfReceiveDataBoxes" : 30,
+      "noOfTransmitDataBoxes" : 30,
+      "receiveBufferSize" : 50,
+      "transmitBufferSize" : 50
+    },
+    "canFDLegacy" : {
+      "channelId" : "af19470a-b122-4303-8139-9b4552a11003",
+      "noOfReceiveDataBoxes" : 1,
+      "noOfTransmitDataBoxes" : 1,
+      "receiveBufferSize" : 1,
+      "transmitBufferSize" : 1
+    },
+    "appliedCanSetting" : "4cf5660f-8300-45b7-98b7-b8f94a94aaaa",
+    "appliedCanFDSetting" : "bc80b989-b95c-43e2-9a89-122edaf171bf",
+    "frames" : [ ]
+  }, {
+    "channelId" : "4c49dfe6-89ba-4f4b-a1a5-28de87375ffb",
+    "name" : "CAN_4",
+    "controllerId" : 3,
+    "wakeUpEnabled" : false,
+    "wufSupported" : false,
+    "canFDConfigured" : false,
+    "wufConfig" : {
+      "name" : "wufConfig",
+      "frameType" : "Standard",
+      "dlc" : 8,
+      "identifier" : "0x0",
+      "identifierMask" : "0x0",
+      "dataMasks" : [ "0xFF", "0xFF", "0xFF", "0xFF", "0xFF", "0xFF", "0xFF", "0xFF" ]
+    },
+    "canLegacy" : {
+      "channelId" : "53297f2b-bdde-4d9d-b9ed-56b7c3a7bd63",
+      "noOfReceiveDataBoxes" : 30,
+      "noOfTransmitDataBoxes" : 30,
+      "receiveBufferSize" : 50,
+      "transmitBufferSize" : 50
+    },
+    "canFDLegacy" : {
+      "channelId" : "53297f2b-bdde-4d9d-b9ed-56b7c3a7bd63",
+      "noOfReceiveDataBoxes" : 1,
+      "noOfTransmitDataBoxes" : 1,
+      "receiveBufferSize" : 1,
+      "transmitBufferSize" : 1
+    },
+    "appliedCanSetting" : "e02ec630-eaca-4466-8cd6-bcc61d7f04d1",
+    "appliedCanFDSetting" : "9cb98680-df1f-45f2-9c53-283de43294d8",
+    "frames" : [ ]
+  } ]
+}

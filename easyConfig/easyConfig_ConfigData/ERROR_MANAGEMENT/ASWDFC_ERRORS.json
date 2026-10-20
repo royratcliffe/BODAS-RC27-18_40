@@ -1,0 +1,126 @@
+[ [ {
+  "dfcErrorId" : "39811882-fb0c-47c5-aabe-76c3c82869a4",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DFC_bds_TimeUpDownDebFault",
+  "dtcCode" : "0x8000",
+  "ftbCode" : "0x00",
+  "dfesPriority" : "DFES_LowPrio",
+  "description" : "DFC for customer ",
+  "edClass" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+  "debounceMethodType" : "TIME_UP_DOWN",
+  "debounceMethod" : {
+    "calParamName" : "bds_dsm_TimeUpDown",
+    "defectLimit" : "1",
+    "name" : "TimeUpDown",
+    "okLimit" : "1",
+    "ratio" : "1"
+  },
+  "dfcConfig" : {
+    "spnCode" : "0x00",
+    "fmiCode" : "0x00",
+    "milLamp" : "No",
+    "awlLamp" : "No",
+    "rslLamp" : "No",
+    "protectLamp" : "No"
+  }
+}, {
+  "dfcErrorId" : "47af05cd-2433-45c8-afa7-6873905dee5c",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DFC_bds_EventUpDownDebFault",
+  "dtcCode" : "0x8001",
+  "ftbCode" : "0x00",
+  "dfesPriority" : "DFES_LowPrio",
+  "description" : "DFC for customer ",
+  "edClass" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+  "debounceMethodType" : "EVENT_UP_DOWN",
+  "debounceMethod" : {
+    "calParamName" : "bds_dsm_EventUpDown",
+    "defectLimit" : "1",
+    "name" : "EventUpDown",
+    "okLimit" : "1",
+    "ratio" : "1"
+  },
+  "dfcConfig" : {
+    "spnCode" : "0x00",
+    "fmiCode" : "0x00",
+    "milLamp" : "No",
+    "awlLamp" : "No",
+    "rslLamp" : "No",
+    "protectLamp" : "No"
+  }
+}, {
+  "dfcErrorId" : "a21fa54b-6329-4098-8c15-ef86160b310e",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DFC_bds_EventInRowDebFault",
+  "dtcCode" : "0x8002",
+  "ftbCode" : "0x00",
+  "dfesPriority" : "DFES_LowPrio",
+  "description" : "DFC for customer ",
+  "edClass" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+  "debounceMethodType" : "EVENT_IN_ROW",
+  "debounceMethod" : {
+    "calParamName" : "bds_dsm_EventInRow",
+    "defectLimit" : "1",
+    "name" : "EventInRow",
+    "okLimit" : "1",
+    "ratio" : null
+  },
+  "dfcConfig" : {
+    "spnCode" : "0x00",
+    "fmiCode" : "0x00",
+    "milLamp" : "No",
+    "awlLamp" : "No",
+    "rslLamp" : "No",
+    "protectLamp" : "No"
+  }
+}, {
+  "dfcErrorId" : "f3fc6327-2f24-4957-9554-61fdea26f81a",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DFC_bds_TimeInRowDebFault",
+  "dtcCode" : "0x8003",
+  "ftbCode" : "0x00",
+  "dfesPriority" : "DFES_LowPrio",
+  "description" : "DFC for customer ",
+  "edClass" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+  "debounceMethodType" : "TIME_IN_ROW",
+  "debounceMethod" : {
+    "calParamName" : "bds_dsm_TimeInRow",
+    "defectLimit" : "1",
+    "name" : "TimeInRow",
+    "okLimit" : "1",
+    "ratio" : null
+  },
+  "dfcConfig" : {
+    "spnCode" : "0x00",
+    "fmiCode" : "0x00",
+    "milLamp" : "No",
+    "awlLamp" : "No",
+    "rslLamp" : "No",
+    "protectLamp" : "No"
+  }
+}, {
+  "dfcErrorId" : "bf74da56-bd87-4450-a127-6e136e293c69",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DFC_bds_NoDebFault1",
+  "dtcCode" : "0x8004",
+  "ftbCode" : "0x00",
+  "dfesPriority" : "DFES_LowPrio",
+  "description" : "DFC for customer ",
+  "edClass" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+  "debounceMethodType" : "NATIVE",
+  "debounceMethod" : {
+    "calParamName" : null,
+    "defectLimit" : null,
+    "name" : "Native",
+    "okLimit" : null,
+    "ratio" : null
+  },
+  "dfcConfig" : {
+    "spnCode" : "0x00",
+    "fmiCode" : "0x00",
+    "milLamp" : "No",
+    "awlLamp" : "No",
+    "rslLamp" : "No",
+    "protectLamp" : "No"
+  }
+} ] ]

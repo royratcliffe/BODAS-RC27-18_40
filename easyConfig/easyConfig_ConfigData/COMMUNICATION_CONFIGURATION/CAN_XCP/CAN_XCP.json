@@ -1,0 +1,9 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "XCP",
+  "masterNode" : "2045",
+  "slaveNode" : "2046",
+  "canChannelRef" : "CAN_3",
+  "canChannels" : [ "CAN_4", "CAN_3", "CAN_2", "CAN_1" ],
+  "protocol" : "CAN 2.0B"
+}

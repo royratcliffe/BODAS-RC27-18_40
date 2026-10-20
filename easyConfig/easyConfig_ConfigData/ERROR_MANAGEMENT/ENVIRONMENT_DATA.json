@@ -1,0 +1,30 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "initialPID" : "B5",
+  "edClasses" : [ {
+    "edClassId" : "177066dd-4dfa-48f7-a320-72c46bd47bc3",
+    "name" : "ED_Class1",
+    "selectedEDDidSignals" : [ "01c57cba-d735-4e43-adcb-a2bd8560982e", "82de4239-582c-45c6-bf32-3db111d86a0a", "d9fb6d4f-97f6-4721-853a-37535990e610", "3e02817a-8b7c-4d6a-9919-1ddddda00f77", "547b184c-c910-4a34-955e-e99b60f07df2" ]
+  } ],
+  "edDidSignals" : [ {
+    "signalId" : "01c57cba-d735-4e43-adcb-a2bd8560982e",
+    "name" : "bds_ED_Sig1",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "82de4239-582c-45c6-bf32-3db111d86a0a",
+    "name" : "bds_ED_Sig2",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "d9fb6d4f-97f6-4721-853a-37535990e610",
+    "name" : "bds_ED_Sig3",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "3e02817a-8b7c-4d6a-9919-1ddddda00f77",
+    "name" : "bds_ED_Sig4",
+    "dataType" : "UINT16"
+  }, {
+    "signalId" : "547b184c-c910-4a34-955e-e99b60f07df2",
+    "name" : "bds_ED_Sig5",
+    "dataType" : "UINT16"
+  } ]
+}

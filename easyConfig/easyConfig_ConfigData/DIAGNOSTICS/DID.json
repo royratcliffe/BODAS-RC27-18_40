@@ -1,0 +1,129 @@
+[ [ {
+  "didId" : "1acc301d-ca84-4317-8cb2-23cfc2c4d87b",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DcmDspDid_Parameter_A800",
+  "didType" : "Parameter",
+  "identifier" : "43008",
+  "didInfo" : "DcmDspDidInfo_Parameter_All",
+  "didSignals" : [ {
+    "signalId" : "3c3f31ae-51fb-4a0b-98d8-3c6175abf50a",
+    "name" : "DcmDspData_parameter_A800_u32",
+    "dataReadFunction" : "bds_parameter_read_appl_u32",
+    "dataWriteFunction" : "bds_parameter_write_appl_u32",
+    "dataSize" : "32",
+    "dataType" : "UINT32",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "6b1281c9-c3c1-42a8-a8a4-a27d979689d9",
+    "name" : "DcmDspData_parameter_A800_s16",
+    "dataReadFunction" : "bds_parameter_read_appl_s16",
+    "dataWriteFunction" : "bds_parameter_write_appl_s16",
+    "dataSize" : "16",
+    "dataType" : "SINT16",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "c51e1a8b-c72a-42ae-a9bf-9d04b0f579b3",
+    "name" : "DcmDspData_parameter_A800_u8",
+    "dataReadFunction" : "bds_parameter_read_appl_u8",
+    "dataWriteFunction" : "bds_parameter_write_appl_u8",
+    "dataSize" : "8",
+    "dataType" : "UINT8_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "29357f97-afd1-4313-b878-0d89a01665ab",
+    "name" : "DcmDspData_parameter_A800_u16",
+    "dataReadFunction" : "bds_parameter_read_appl_u16",
+    "dataWriteFunction" : "bds_parameter_write_appl_u16",
+    "dataSize" : "16",
+    "dataType" : "UINT16",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "1351fe53-1d37-4c00-a40d-1ee04b0650ec",
+    "name" : "DcmDspData_parameter_A800_s8",
+    "dataReadFunction" : "bds_parameter_read_appl_s8",
+    "dataWriteFunction" : "bds_parameter_write_appl_s8",
+    "dataSize" : "8",
+    "dataType" : "SINT8",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "856a291c-7f8e-4fa0-8790-19c9677f2df0",
+    "name" : "DcmDspData_parameter_A800_s32",
+    "dataReadFunction" : "bds_parameter_read_appl_s32",
+    "dataWriteFunction" : "bds_parameter_write_appl_s32",
+    "dataSize" : "32",
+    "dataType" : "SINT32",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "826768a0-2608-4814-856e-3ac068f798c1",
+    "name" : "DcmDspData_parameter_A800_s32N",
+    "dataReadFunction" : "bds_parameter_read_appl_s32N",
+    "dataWriteFunction" : "bds_parameter_write_appl_s32N",
+    "dataSize" : "64",
+    "dataType" : "SINT32_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "dcc22293-90d9-4179-b4db-4cabc6a07033",
+    "name" : "DcmDspData_parameter_A800_s16N",
+    "dataReadFunction" : "bds_parameter_read_appl_s16N",
+    "dataWriteFunction" : "bds_parameter_write_appl_s16N",
+    "dataSize" : "64",
+    "dataType" : "SINT16_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "b45b2263-97f2-4265-bf00-9ca6fff8ff23",
+    "name" : "DcmDspData_parameter_A800_s8N",
+    "dataReadFunction" : "bds_parameter_read_appl_s8N",
+    "dataWriteFunction" : "bds_parameter_write_appl_s8N",
+    "dataSize" : "32",
+    "dataType" : "SINT8_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "05ba0a8e-3988-4e13-a6f1-c2093495f5c9",
+    "name" : "DcmDspData_parameter_A800_u8N",
+    "dataReadFunction" : "bds_parameter_read_appl_u8N",
+    "dataWriteFunction" : "bds_parameter_write_appl_u8N",
+    "dataSize" : "32",
+    "dataType" : "UINT8_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "252d2369-d5aa-4aab-929c-cd9fa388e090",
+    "name" : "DcmDspData_parameter_A800_u32N",
+    "dataReadFunction" : "bds_parameter_read_appl_u32N",
+    "dataWriteFunction" : "bds_parameter_write_appl_u32N",
+    "dataSize" : "64",
+    "dataType" : "UINT32_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "fd643976-695c-477b-a7db-ca9597745864",
+    "name" : "DcmDspData_parameter_A800_u16N",
+    "dataReadFunction" : "bds_parameter_read_appl_u16N",
+    "dataWriteFunction" : "bds_parameter_write_appl_u16N",
+    "dataSize" : "32",
+    "dataType" : "UINT16_N",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  }, {
+    "signalId" : "777ceb1e-22b5-4f81-96f9-6a8a7cd2d771",
+    "name" : "DcmDspData_parameter_A800_b",
+    "dataReadFunction" : "bds_parameter_read_appl_b",
+    "dataWriteFunction" : "bds_parameter_write_appl_b",
+    "dataSize" : "8",
+    "dataType" : "BOOLEAN",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  } ]
+}, {
+  "didId" : "c82957c0-914e-4166-a7ac-14eb70607e17",
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "name" : "DcmDspDid_ProcessData_abed",
+  "didType" : "Process Data",
+  "identifier" : "44013",
+  "didInfo" : "DcmDspDidInfo_ProcessData_All",
+  "didSignals" : [ {
+    "signalId" : "5e7b8652-7225-4792-9f9b-8cd2fc6c69bc",
+    "name" : "DcmDspData_Processdata_ABED",
+    "dataReadFunction" : "bds_processdata_read_appl_u8",
+    "dataWriteFunction" : "",
+    "dataSize" : "8",
+    "dataType" : "UINT8",
+    "dataUsePort" : "USE_DATA_SYNCH_FNC"
+  } ]
+} ] ]

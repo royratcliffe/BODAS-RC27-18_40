@@ -1,0 +1,10 @@
+{
+  "projectUUID" : "be7f1f84-aa3a-4132-b8a6-1005a3287283",
+  "udsBlocks" : [ {
+    "name" : "UdsPhyExtd",
+    "nodeId" : "1",
+    "testerId" : "250",
+    "canChannelRef" : "CAN_2",
+    "protocol" : "CAN 2.0B"
+  } ]
+}
