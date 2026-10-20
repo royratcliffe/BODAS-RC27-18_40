@@ -1,0 +1,46 @@
+(* --- Interface --- *)
+{attribute 'qualified_only' := ''}
+{attribute 'strict' := ''}
+TYPE bds_in_aiv_signal_te :
+(
+	IN_AIV_START_SIGNALS := 16#500,
+	IN_AIV_START := 16#4FF,
+	K52,
+	K60,
+	K43,
+	K54,
+	K55,
+	K37,
+	K61,
+	A21,
+	A36,
+	A37,
+	A38,
+	A39,
+	K32,
+	K30,
+	K78,
+	K76,
+	K74,
+	K77,
+	K10,
+	K75,
+	K31,
+	K34,
+	A13,
+	A40,
+	A41,
+	A42,
+	A25,
+	A26,
+	A27,
+	A14,
+	A57,
+	A28,
+	A29,
+	K11,
+	K35,
+	IN_AIV_NUM_SIGNALS,
+	IN_AIV_FLEXIN_NUM_SIGNALS := K78
+) UINT;
+END_TYPE
