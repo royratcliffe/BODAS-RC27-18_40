@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)5c593890-2c09-47cd-ad65-905209c73016",
+          "ParentGuid": "(Guid)f2c40710-c762-4b95-8bd9-a44eb02e1207",
+          "Name": "(string)Application",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": {}
+          },
+          "TypeGuid": "(Guid)639b491f-5557-464c-af91-1471bac9f549",
+          "EmbeddedTypeGuids": null
+        }
+      },
+      "TypeInfos": {
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "Guid": "System.Guid",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "639b491f",
+        "@Value": {
+          "DynamicMemory": "(int)-1",
+          "DownloadContent": "(bool)True",
+          "StopParentAppsOnException": "(bool)False",
+          "GuidNetVarGVL": "(Guid)f29212d4-53da-45c4-b7f4-08416096d2e8",
+          "GuidMemSettings": "(Guid)00000000-0000-0000-0000-000000000000",
+          "BootAppSettings": null,
+          "OverrideTargetMemorySizes": "(bool)False",
+          "TargetInputSize": "(int)0",
+          "TargetOutputSize": "(int)0",
+          "TargetMemoryize": "(int)0",
+          "StaticSize": "(int)0",
+          "AllowUserDefinedStaticSize": "(bool)False",
+          "X509CommonName": "(string)",
+          "X509EncryptionThumbprint": "(string)",
+          "X509EncryptionThumbprints": null,
+          "SignDownloadWithX509Certificate": "(bool)False",
+          "FirmCode": "(uint)0",
+          "ProductCode": "(uint)0",
+          "KeepOnParentOnlineChange": "(bool)False"
+        }
+      },
+      "TypeInfos": {
+        "639b491f": "{639b491f-5557-464c-af91-1471bac9f549}",
+        "bool": "System.Boolean",
+        "Guid": "System.Guid",
+        "int": "System.Int32",
+        "string": "System.String",
+        "uint": "System.UInt32"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

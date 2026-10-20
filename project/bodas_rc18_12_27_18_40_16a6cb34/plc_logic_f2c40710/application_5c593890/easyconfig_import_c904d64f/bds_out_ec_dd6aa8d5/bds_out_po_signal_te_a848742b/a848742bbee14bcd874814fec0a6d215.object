@@ -1,0 +1,99 @@
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)a848742b-bee1-4bcd-8748-14fec0a6d215",
+          "ParentGuid": "(Guid)5c593890-2c09-47cd-ad65-905209c73016",
+          "Name": "(string)bds_out_po_signal_te",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": [
+              {
+                "@Key": "(Guid)24568a24-c491-472c-a21f-ee5d33859fab",
+                "@Value": {
+                  "@Type": "24568a24",
+                  "@Value": {
+                    "MemoryReserveForOnlineChange": "(int)0",
+                    "ExcludeFromBuild": "(bool)False",
+                    "External": "(bool)False",
+                    "EnableSystemCall": "(bool)False",
+                    "CompilerDefines": "(string)",
+                    "LinkAlways": "(bool)False",
+                    "Undefines": {
+                      "@Type": "[string]",
+                      "@Value": []
+                    }
+                  }
+                }
+              },
+              {
+                "@Key": "(Guid)829a18f2-c514-4f6e-9634-1df173429203",
+                "@Value": {
+                  "@Type": "829a18f2",
+                  "@Value": {
+                    "ParentObjects": {
+                      "@Type": "fa2ee218:IDictionary",
+                      "@Value": [
+                        {
+                          "@Key": "(Guid)d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84",
+                          "@Value": "(Guid)dd6aa8d5-e11d-4ffc-a733-760cdc9bb818"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "TypeGuid": "(Guid)2db5746d-d284-4425-9f7f-2663a34b0ebc",
+          "EmbeddedTypeGuids": {
+            "@Type": "[Guid]",
+            "@Value": [
+              "(Guid)a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+            ]
+          }
+        }
+      },
+      "TypeInfos": {
+        "24568a24": "{24568a24-c491-472c-a21f-ee5d33859fab}",
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "829a18f2": "{829a18f2-c514-4f6e-9634-1df173429203}",
+        "bool": "System.Boolean",
+        "fa2ee218": "{fa2ee218-a39b-4b6d-b249-49dbddbd168a}",
+        "Guid": "System.Guid",
+        "int": "System.Int32",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "2db5746d",
+        "@Value": {
+          "Interface": {
+            "@Type": "a9ed5b7e",
+            "@Value": {
+              "TextDocument": {
+                "@Type": "f3878285",
+                "@Value": {
+                  "TextBlobForSerialisation": "(string){attribute 'qualified_only' := ''}\n{attribute 'strict' := ''}\nTYPE bds_out_po_signal_te :\n(\n\tOUT_PO_START_SIGNALS := 16#200,\n\tOUT_PO_START := 16#1FF,\n\tK07,\n\tK09,\n\tK73,\n\tK08,\n\tK29,\n\tK17,\n\tA32,\n\tA47,\n\tA31,\n\tA48,\n\tA46,\n\tA33,\n\tA34,\n\tA51,\n\tA35,\n\tA53,\n\tA52,\n\tA54,\n\tK16,\n\tK14,\n\tK15,\n\tA19,\n\tA05,\n\tA20,\n\tA09,\n\tA02,\n\tA17,\n\tK51,\n\tK12,\n\tA03,\n\tA18,\n\tA08,\n\tA07,\n\tK80,\n\tK81,\n\tK82,\n\tK83,\n\tOUT_PO_NUM_SIGNALS,\n\tOUT_PO_FSC_NUM_SIGNALS := K80,\n\tOUT_PO_FSC_HS_NUM_SIGNALS := K16\n) UINT;\nEND_TYPE\n",
+                  "LineInfoPersistence": "(string)a848742b-bee1-4bcd-8748-14fec0a6d215_Decl_LineIds"
+                }
+              }
+            }
+          },
+          "UniqueIdGenerator": "(string)49"
+        }
+      },
+      "TypeInfos": {
+        "2db5746d": "{2db5746d-d284-4425-9f7f-2663a34b0ebc}",
+        "a9ed5b7e": "{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}",
+        "f3878285": "{f3878285-8e4f-490b-bb1b-9acbb7eb04db}",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

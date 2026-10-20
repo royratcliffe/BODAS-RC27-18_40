@@ -1,0 +1,102 @@
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)0e49bd57-670e-43bb-b652-8a166242ca18",
+          "ParentGuid": "(Guid)5c593890-2c09-47cd-ad65-905209c73016",
+          "Name": "(string)GVL_linCanSignals_easyConfig",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": [
+              {
+                "@Key": "(Guid)24568a24-c491-472c-a21f-ee5d33859fab",
+                "@Value": {
+                  "@Type": "24568a24",
+                  "@Value": {
+                    "MemoryReserveForOnlineChange": "(int)0",
+                    "ExcludeFromBuild": "(bool)False",
+                    "External": "(bool)False",
+                    "EnableSystemCall": "(bool)False",
+                    "CompilerDefines": "(string)",
+                    "LinkAlways": "(bool)False",
+                    "Undefines": {
+                      "@Type": "[string]",
+                      "@Value": []
+                    }
+                  }
+                }
+              },
+              {
+                "@Key": "(Guid)829a18f2-c514-4f6e-9634-1df173429203",
+                "@Value": {
+                  "@Type": "829a18f2",
+                  "@Value": {
+                    "ParentObjects": {
+                      "@Type": "fa2ee218:IDictionary",
+                      "@Value": [
+                        {
+                          "@Key": "(Guid)d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84",
+                          "@Value": "(Guid)79402d92-13bc-46c5-b1a7-ed03cb1d2d81"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "TypeGuid": "(Guid)ffbfa93a-b94d-45fc-a329-229860183b1d",
+          "EmbeddedTypeGuids": {
+            "@Type": "[Guid]",
+            "@Value": [
+              "(Guid)a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+            ]
+          }
+        }
+      },
+      "TypeInfos": {
+        "24568a24": "{24568a24-c491-472c-a21f-ee5d33859fab}",
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "829a18f2": "{829a18f2-c514-4f6e-9634-1df173429203}",
+        "bool": "System.Boolean",
+        "fa2ee218": "{fa2ee218-a39b-4b6d-b249-49dbddbd168a}",
+        "Guid": "System.Guid",
+        "int": "System.Int32",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "ffbfa93a",
+        "@Value": {
+          "Interface": {
+            "@Type": "a9ed5b7e",
+            "@Value": {
+              "TextDocument": {
+                "@Type": "f3878285",
+                "@Value": {
+                  "TextBlobForSerialisation": "(string)VAR_GLOBAL\n\tPDUR_VARIANT_PRE_COMPILE: USINT := 0;\n\tPDUR_VARIANT_POSTBUILD_LOADABLE: USINT := 1;\n\tPDUR_CONFIGURATION_VARIANT: USINT := PDUR_VARIANT_PRE_COMPILE;\n\tPduRConf_PduRSrcPdu_CddToPduR_HWVrsNumIBS2105_Src: USINT := 0;\n\tPduRConf_PduRDestPdu_PduRToLinTp_HWVrsNumIBS2105_Dest: USINT := 0;\n\tPduRConf_PduRSrcPdu_DoIP_Rx_DoIP2PduR_Src_Java: USINT := 0;\n\tPduRConf_PduRDestPdu_DoIP_Rx_PduR2Dcm_Dest_Java: USINT := 0;\n\tPduRConf_PduRSrcPdu_DoIP_Tx_Dcm2PduR_Src_JavaTool: USINT := 0;\n\tPduRConf_PduRDestPdu_DoIP_Tx_PduR2DoIP_Dest_Java: USINT := 0;\n\tPduRConf_PduRSrcPdu_LinTPToPduR_HWVrsNumIBS2105_Src: USINT := 0;\n\tPduRConf_PduRDestPdu_PduRToCdd_HWVrsNumIBS2105_Dest: USINT := 0;\n\tPduRConf_PduRSrcPdu_NM_TX_FA_Com2PduR_Src: USINT := 0;\n\tPduRConf_PduRDestPdu_NM_TX_FA_PduR2CanNm_Dest: USINT := 0;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_CanIf_sig_C_xRx_Src: USINT := 1;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_C_xTx_Src: USINT := 1;\n\tPduRConf_PduRDestPdu_rbr_Pdu_CanIf_sig_C_xTx_Dest: USINT := 1;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_CanIf_sig_D_xRx_Src: USINT := 2;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_D_xTx_Src: USINT := 2;\n\tPduRConf_PduRDestPdu_rbr_Pdu_CanIf_sig_D_xTx_Dest: USINT := 2;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_CanIf_canFdSig_1_xRx_Src: USINT := 0;\n\tPduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_canFdSig_1_xTx_Src: USINT := 3;\n\tPduRConf_PduRDestPdu_rbr_Pdu_CanIf_canFdSig_1_xTx_Dest: USINT := 0;\n\tPduRConf_PduRSrcPdu_UdsOnCan_FctExtdidRx_CanTp2PduR_Src: USINT := 0;\n\tPduRConf_PduRDestPdu_UdsOnCan_FctExtdidRx_PduR2Dcm_Dest: USINT := 1;\n\tPduRConf_PduRSrcPdu_UdsOnCan_PhyRxExtdId_CanTp2PduR_Src: USINT := 1;\n\tPduRConf_PduRDestPdu_UdsOnCan_PhyRxExtdId_PduR2Dcm_Dest: USINT := 2;\n\tPduRConf_PduRSrcPdu_UdsOnCan_PhyTxExtdId_Dcm2PduR_Src: USINT := 1;\n\tPduRConf_PduRDestPdu_UdsOnCan_PhyTxExtdId_PduR2CanTp_Dest: USINT := 0;\n\tLinIfConf_LinIfChannel_LinIfChannel_0: USINT := 5;\n\tLinIfConf_LinIfFrame_LinIf_MRF: USINT := 16#00;\n\tLinIfConf_LinIfFrame_LinIf_SRF: USINT := 16#01;\n\tNULL_SCHEDULE: USINT := 16#00;\n\tLinIf_Scht_MasterReq_LinIfChannel_0_bds_Pb_preDefRef_vrnt01: USINT := 16#01;\n\tLinIf_Scht_SlaveResp_LinIfChannel_0_bds_Pb_preDefRef_vrnt01: USINT := 16#02;\n\tLinIf_Scht_RUN_MAIN_LinIfChannel_0_bds_Pb_preDefRef_vrnt01: USINT := 16#03;\n\tCOM_VARIANT_PRE_COMPILE: USINT := 0;\n\tCOM_VARIANT_LINK_TIME: USINT := 1;\n\tCOM_VARIANT_POSTBUILD_LOADABLE: USINT := 2;\n\tCOM_VARIANT_POSTBUILD_SELECTABLE: USINT := 3;\n\tCOM_CONFIGURATION_VARIANT: USINT := COM_VARIANT_PRE_COMPILE;\n\tComConf_ComIPdu_ComIPdu_canFd_1_xTx: USINT := 0;\n\tComConf_ComIPdu_ComIPdu_C_xTx: USINT := 1;\n\tComConf_ComIPdu_ComIPdu_D_xTx: USINT := 2;\n\tComConf_ComIPdu_NM_TX_FA: USINT := 3;\n\tComConf_ComIPdu_ComIPdu_C_xRx: USINT := 0;\n\tComConf_ComIPdu_ComIPdu_D_xRx: USINT := 1;\n\tComConf_ComIPdu_ComIPdu_canFd_1_xRx: USINT := 2;\n\tComConf_ComSignal_ComSignal_canFdSig_1_1_xTx: USINT := 0;\n\tComConf_ComSignal_ComSignal_canFdSig_1_2_xTx: USINT := 1;\n\tComConf_ComSignal_ComSignal_canFdSig_1_3_xTx: USINT := 2;\n\tComConf_ComSignal_ComSignal_canFdSig_1_4_xTx: USINT := 3;\n\tComConf_ComSignal_ComSignal_canFdSig_1_5_xTx: USINT := 4;\n\tComConf_ComSignal_ComSignal_canFdSig_1_6_xTx: USINT := 5;\n\tComConf_ComSignal_ComSignal_C_xTx: USINT := 6;\n\tComConf_ComSignal_ComSignal_D_xTx: USINT := 7;\n\tComConf_ComSignal_ComSignal_C_xRx: USINT := 0;\n\tComConf_ComSignal_ComSignal_D_xRx: USINT := 1;\n\tComConf_ComSignal_ComSignal_canFdSig_1_1_xRx: USINT := 2;\n\tComConf_ComSignal_ComSignal_canFdSig_1_2_xRx: USINT := 3;\n\tComConf_ComSignal_ComSignal_canFdSig_1_3_xRx: USINT := 4;\n\tComConf_ComSignal_ComSignal_canFdSig_1_4_xRx: USINT := 5;\n\tComConf_ComSignalGroup_ComSignalGroup_canFd_1_xTx: USINT := 0;\n\tComConf_ComSignalGroup_ComSignalGroup_Tx_1: USINT := 1;\n\tComConf_ComSignalGroup_ComSignalGroup_Tx: USINT := 2;\n\tComConf_ComSignalGroup_ComSignalGroup_Rx_1: USINT := 0;\n\tComConf_ComSignalGroup_ComSignalGroup_Rx: USINT := 1;\n\tComConf_ComSignalGroup_ComSignalGroup_canFd_1_xRx: USINT := 2;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_1_xTx: USINT := 0;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_2_xTx: USINT := 1;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_3_xTx: USINT := 2;\n\tComConf_ComGroupSignal_ComGroupSignal_Tx: USINT := 3;\n\tComConf_ComGroupSignal_ComGroupSignal_Tx_0: USINT := 4;\n\tComConf_ComGroupSignal_ComGroupSignal_Rx: USINT := 0;\n\tComConf_ComGroupSignal_ComGroupSignal_Rx_0: USINT := 1;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_1_xRx: USINT := 2;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_2_xRx: USINT := 3;\n\tComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_3_xRx: USINT := 4;\n\tComConf_ComIPduGroup_ComIPduGroup_C_Rx: USINT := 0;\n\tComConf_ComIPduGroup_ComIPduGroup_C_Tx: USINT := 1;\n\tComConf_ComIPduGroup_ComIPduGroup_D_Rx: USINT := 2;\n\tComConf_ComIPduGroup_ComIPduGroup_D_Tx: USINT := 3;\n\tComConf_ComIPduGroup_ComIPduGroup_canFd_1_Rx: USINT := 4;\n\tComConf_ComIPduGroup_ComIPduGroup_canFd_1_Tx: USINT := 5;\n\tComConf_ComIPduGroup_LE_CAN_NM_TX: USINT := 6;\n\tComConf_ComIPduGroup_LP_CAN_NM_TX: USINT := 7;\n\tComConf_ComIPduGroup_LinChannel_0_RX: USINT := 8;\n\tComConf_ComIPduGroup_LinChannel_0_TX: USINT := 9;\n\tComConf_ComIPduGroup_LinRx: USINT := 10;\n\tComConf_ComIPduGroup_LinTx: USINT := 11;\n\tComConf_ComIPduGroup_MLIN_RX: USINT := 12;\n\tComConf_ComIPduGroup_MLIN_TX: USINT := 13;\n\tComConf_ComIPduGroup_PT_CAN_RX: USINT := 14;\n\tComConf_ComIPduGroup_PT_CAN_TX: USINT := 15;\n\tBDS_LIN_CHNL_1_DU8: USINT := LinIfConf_LinIfChannel_LinIfChannel_0;\nEND_VAR",
+                  "LineInfoPersistence": "(string)0e49bd57-670e-43bb-b652-8a166242ca18_Decl_LineIds"
+                }
+              }
+            }
+          },
+          "NetVarProperties": null,
+          "ParameterList": "(bool)False",
+          "AddAttributeSubsequent": "(bool)False"
+        }
+      },
+      "TypeInfos": {
+        "a9ed5b7e": "{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}",
+        "bool": "System.Boolean",
+        "f3878285": "{f3878285-8e4f-490b-bb1b-9acbb7eb04db}",
+        "ffbfa93a": "{ffbfa93a-b94d-45fc-a329-229860183b1d}",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

@@ -1,0 +1,124 @@
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)1e1751b1-893b-4657-ba36-2ae696eb6417",
+          "ParentGuid": "(Guid)5c593890-2c09-47cd-ad65-905209c73016",
+          "Name": "(string)Library Manager",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": {}
+          },
+          "TypeGuid": "(Guid)adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+          "EmbeddedTypeGuids": null
+        }
+      },
+      "TypeInfos": {
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "Guid": "System.Guid",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "adb5cb65",
+        "@Value": {
+          "ParameterTable": {
+            "@Type": "[]",
+            "@Value": []
+          },
+          "Items": {
+            "@Type": "ArrayList:IList",
+            "@Value": [
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)IoStandard, 3.5.17.0 (System)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)IoStandard",
+                  "ResolverGuid": "(Guid)b303f5ce-75ff-4668-a777-7da8debb449c",
+                  "Id": "(long)3251043241",
+                  "Namespace": "(string)IoStandard",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)True"
+                }
+              },
+              {
+                "@Type": "51a11660",
+                "@Value": {
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "Name": "(string)CmpSIL2, * (System)",
+                  "Id": "(long)1937625565",
+                  "Namespace": "(string)CmpSIL2",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "51a11660",
+                "@Value": {
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "Name": "(string)BODAS_RC18-12_27-18_40, 3.0.1 (Bosch Rexroth AG)",
+                  "Id": "(long)3567806922",
+                  "Namespace": "(string)BODAS_RC18_12_27_18_40",
+                  "SystemLibrary": "(bool)False",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              },
+              {
+                "@Type": "4723ebe7",
+                "@Value": {
+                  "DefaultResolution": "(string)3SLicense, 0.0.0.0 (CODESYS)",
+                  "Optional": "(bool)False",
+                  "Params": null,
+                  "PlaceholderName": "(string)3SLicense",
+                  "ResolverGuid": "(Guid)97c3b452-d9fa-4ac2-9d0c-3d420aa6d95b",
+                  "Id": "(long)3291914740",
+                  "Namespace": "(string)_3S_LICENSE",
+                  "SystemLibrary": "(bool)True",
+                  "HideWhenReferencedAsDependency": "(bool)False",
+                  "PublishSymbolsInContainer": "(bool)False",
+                  "QualifiedOnly": "(bool)False",
+                  "LinkAllContent": "(bool)False"
+                }
+              }
+            ]
+          },
+          "PlaceholderRedirectionTable": {
+            "@Type": "Hashtable:IDictionary",
+            "@Value": {
+              "Standard": "(string)Standard, 3.5.22.0 (System)"
+            }
+          }
+        }
+      },
+      "TypeInfos": {
+        "4723ebe7": "{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}",
+        "51a11660": "{51a11660-6c0d-4598-8c08-419c5845ea1f}",
+        "adb5cb65": "{adb5cb65-8e1d-4a00-b70a-375ea27582f3}",
+        "ArrayList": "System.Collections.ArrayList",
+        "bool": "System.Boolean",
+        "Guid": "System.Guid",
+        "Hashtable": "System.Collections.Hashtable",
+        "long": "System.Int64",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}

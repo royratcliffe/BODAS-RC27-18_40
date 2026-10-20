@@ -1,0 +1,99 @@
+{
+  "payload": {
+    "meta": {
+      "Graph": {
+        "@Type": "81297157",
+        "@Value": {
+          "Guid": "(Guid)10b36081-773f-4b11-b1bd-1f3f0e37a431",
+          "ParentGuid": "(Guid)5c593890-2c09-47cd-ad65-905209c73016",
+          "Name": "(string)bds_sys_do_signal_te",
+          "Properties": {
+            "@Type": "2c41fa04:IDictionary",
+            "@Value": [
+              {
+                "@Key": "(Guid)24568a24-c491-472c-a21f-ee5d33859fab",
+                "@Value": {
+                  "@Type": "24568a24",
+                  "@Value": {
+                    "MemoryReserveForOnlineChange": "(int)0",
+                    "ExcludeFromBuild": "(bool)False",
+                    "External": "(bool)False",
+                    "EnableSystemCall": "(bool)False",
+                    "CompilerDefines": "(string)",
+                    "LinkAlways": "(bool)False",
+                    "Undefines": {
+                      "@Type": "[string]",
+                      "@Value": []
+                    }
+                  }
+                }
+              },
+              {
+                "@Key": "(Guid)829a18f2-c514-4f6e-9634-1df173429203",
+                "@Value": {
+                  "@Type": "829a18f2",
+                  "@Value": {
+                    "ParentObjects": {
+                      "@Type": "fa2ee218:IDictionary",
+                      "@Value": [
+                        {
+                          "@Key": "(Guid)d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84",
+                          "@Value": "(Guid)d55cd18e-1391-4494-b702-3e648650da21"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "TypeGuid": "(Guid)2db5746d-d284-4425-9f7f-2663a34b0ebc",
+          "EmbeddedTypeGuids": {
+            "@Type": "[Guid]",
+            "@Value": [
+              "(Guid)a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+            ]
+          }
+        }
+      },
+      "TypeInfos": {
+        "24568a24": "{24568a24-c491-472c-a21f-ee5d33859fab}",
+        "2c41fa04": "{2c41fa04-1834-41c1-816e-303c7aa2c05b}",
+        "81297157": "{81297157-7ec9-45ce-845e-84cab2b88ade}",
+        "829a18f2": "{829a18f2-c514-4f6e-9634-1df173429203}",
+        "bool": "System.Boolean",
+        "fa2ee218": "{fa2ee218-a39b-4b6d-b249-49dbddbd168a}",
+        "Guid": "System.Guid",
+        "int": "System.Int32",
+        "string": "System.String"
+      }
+    },
+    "object": {
+      "Graph": {
+        "@Type": "2db5746d",
+        "@Value": {
+          "Interface": {
+            "@Type": "a9ed5b7e",
+            "@Value": {
+              "TextDocument": {
+                "@Type": "f3878285",
+                "@Value": {
+                  "TextBlobForSerialisation": "(string){attribute 'qualified_only' := ''}\n{attribute 'strict' := ''}\nTYPE bds_sys_do_signal_te :\n(\n\tSYS_DO_START_SIGNALS := 16#B00,\n\tSYS_DO_START := 16#AFF,\n\tSHUNT_AIC_K39_EN,\n\tSHUNT_AIC_K38_EN,\n\tSHUNT_AIC_K40_EN,\n\tSHUNT_AIC_K41_EN,\n\tSHUNT_AIC_K42_EN,\n\tSHUNT_AIC_K45_EN,\n\tSHUNT_AIC_K44_EN,\n\tSHUNT_AIC_K65_EN,\n\tSHUNT_AIC_K63_EN,\n\tSHUNT_AIC_K64_EN,\n\tSHUNT_AIC_A36_EN,\n\tSHUNT_AIC_A37_EN,\n\tSHUNT_AIC_A38_EN,\n\tSHUNT_AIC_A39_EN,\n\tSHUNT2_EN,\n\tSHUNT4_EN,\n\tSHUNT5_EN,\n\tSHUNT6_EN,\n\tSYS_DO_NUM_SIGNALS\n) UINT;\nEND_TYPE\n",
+                  "LineInfoPersistence": "(string)10b36081-773f-4b11-b1bd-1f3f0e37a431_Decl_LineIds"
+                }
+              }
+            }
+          },
+          "UniqueIdGenerator": "(string)28"
+        }
+      },
+      "TypeInfos": {
+        "2db5746d": "{2db5746d-d284-4425-9f7f-2663a34b0ebc}",
+        "a9ed5b7e": "{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}",
+        "f3878285": "{f3878285-8e4f-490b-bb1b-9acbb7eb04db}",
+        "string": "System.String"
+      }
+    }
+  },
+  "FormatVersion": "1.0"
+}
