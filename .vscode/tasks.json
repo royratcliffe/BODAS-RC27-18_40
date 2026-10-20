@@ -25,9 +25,6 @@
       "command": "python scripts/update_st.py",
       "problemMatcher": [
         "$python"
-      ],
-      "dependsOn": [
-        "remove .gitignore"
       ]
     },
     {
