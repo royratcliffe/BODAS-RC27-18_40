@@ -13,6 +13,15 @@
 *.meta -text -diff
 *.object -text -diff
 
+# Treat DLL and EXE files as binaries
+*.dll -text -diff
+*.exe -text -diff
+
+# Treat batch files as text with CRLF line endings;
+# same for INI files.
+*.bat text eol=crlf
+*.ini text eol=crlf
+
 # .object files are pretty-printed JSON (see scripts/pre-commit);
 # allow diff'ing and do not skip line-ending normalisation since the
 # hook writes LF consistently.
