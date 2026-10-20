@@ -159,7 +159,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_D_xTx_Src">
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_ETC1_xTx_Src">
           <initialValue>
             <simpleValue value="2" />
           </initialValue>
@@ -167,15 +167,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="PduRConf_PduRDestPdu_rbr_Pdu_CanIf_sig_D_xTx_Dest">
-          <initialValue>
-            <simpleValue value="2" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_CanIf_canFdSig_1_xRx_Src">
+        <variable name="PduRConf_PduRDestPdu_rbr_Pdu_CanIf_ETC1_xTx_Dest">
           <initialValue>
             <simpleValue value="0" />
           </initialValue>
@@ -183,15 +175,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_Com2PduR_canFdSig_1_xTx_Src">
-          <initialValue>
-            <simpleValue value="3" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="PduRConf_PduRDestPdu_rbr_Pdu_CanIf_canFdSig_1_xTx_Dest">
+        <variable name="PduRConf_PduRSrcPdu_rbr_Pdu_CanIf_canFdSig_1_xRx_Src">
           <initialValue>
             <simpleValue value="0" />
           </initialValue>
@@ -343,7 +327,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPdu_ComIPdu_canFd_1_xTx">
+        <variable name="ComConf_ComIPdu_ComIPdu_ETC1_xTx">
           <initialValue>
             <simpleValue value="0" />
           </initialValue>
@@ -359,17 +343,9 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPdu_ComIPdu_D_xTx">
-          <initialValue>
-            <simpleValue value="2" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
         <variable name="ComConf_ComIPdu_NM_TX_FA">
           <initialValue>
-            <simpleValue value="3" />
+            <simpleValue value="2" />
           </initialValue>
           <type>
             <USINT />
@@ -399,7 +375,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_1_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_TransmDrivEng_xTx">
           <initialValue>
             <simpleValue value="0" />
           </initialValue>
@@ -407,7 +383,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_2_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_TransmTorqConvLockEng_xTx">
           <initialValue>
             <simpleValue value="1" />
           </initialValue>
@@ -415,7 +391,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_3_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_TransmShiftInProc_xTx">
           <initialValue>
             <simpleValue value="2" />
           </initialValue>
@@ -423,7 +399,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_4_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_TransmTorqConvLockTransInProc_xTx">
           <initialValue>
             <simpleValue value="3" />
           </initialValue>
@@ -431,7 +407,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_5_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_TransmOutpShaftSpeed_xTx">
           <initialValue>
             <simpleValue value="4" />
           </initialValue>
@@ -439,7 +415,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_canFdSig_1_6_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_PercClutchSlip_xTx">
           <initialValue>
             <simpleValue value="5" />
           </initialValue>
@@ -447,7 +423,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_C_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_EngMomOvEn_xTx">
           <initialValue>
             <simpleValue value="6" />
           </initialValue>
@@ -455,9 +431,41 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignal_ComSignal_D_xTx">
+        <variable name="ComConf_ComSignal_ComSignal_ProgrShiftDis_xTx">
           <initialValue>
             <simpleValue value="7" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_MomEngPowerEnMax_xTx">
+          <initialValue>
+            <simpleValue value="8" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_TransmInputShaftSpeed_xTx">
+          <initialValue>
+            <simpleValue value="9" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_SourcAddrContrDevForTransmContr_xTx">
+          <initialValue>
+            <simpleValue value="10" />
+          </initialValue>
+          <type>
+            <USINT />
+          </type>
+        </variable>
+        <variable name="ComConf_ComSignal_ComSignal_C_xTx">
+          <initialValue>
+            <simpleValue value="11" />
           </initialValue>
           <type>
             <USINT />
@@ -511,25 +519,9 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComSignalGroup_ComSignalGroup_canFd_1_xTx">
-          <initialValue>
-            <simpleValue value="0" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
         <variable name="ComConf_ComSignalGroup_ComSignalGroup_Tx_1">
           <initialValue>
-            <simpleValue value="1" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="ComConf_ComSignalGroup_ComSignalGroup_Tx">
-          <initialValue>
-            <simpleValue value="2" />
+            <simpleValue value="0" />
           </initialValue>
           <type>
             <USINT />
@@ -559,41 +551,9 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_1_xTx">
-          <initialValue>
-            <simpleValue value="0" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="ComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_2_xTx">
-          <initialValue>
-            <simpleValue value="1" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="ComConf_ComGroupSignal_ComGroupSignal_canFdSig_1_3_xTx">
-          <initialValue>
-            <simpleValue value="2" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
         <variable name="ComConf_ComGroupSignal_ComGroupSignal_Tx">
           <initialValue>
-            <simpleValue value="3" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
-        <variable name="ComConf_ComGroupSignal_ComGroupSignal_Tx_0">
-          <initialValue>
-            <simpleValue value="4" />
+            <simpleValue value="0" />
           </initialValue>
           <type>
             <USINT />
@@ -639,7 +599,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Rx">
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_CAN_3_Tx">
           <initialValue>
             <simpleValue value="0" />
           </initialValue>
@@ -647,7 +607,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Tx">
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Rx">
           <initialValue>
             <simpleValue value="1" />
           </initialValue>
@@ -655,7 +615,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_ComIPduGroup_D_Rx">
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_C_Tx">
           <initialValue>
             <simpleValue value="2" />
           </initialValue>
@@ -663,7 +623,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_ComIPduGroup_D_Tx">
+        <variable name="ComConf_ComIPduGroup_ComIPduGroup_D_Rx">
           <initialValue>
             <simpleValue value="3" />
           </initialValue>
@@ -679,7 +639,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_ComIPduGroup_canFd_1_Tx">
+        <variable name="ComConf_ComIPduGroup_LE_CAN_NM_TX">
           <initialValue>
             <simpleValue value="5" />
           </initialValue>
@@ -687,7 +647,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LE_CAN_NM_TX">
+        <variable name="ComConf_ComIPduGroup_LP_CAN_NM_TX">
           <initialValue>
             <simpleValue value="6" />
           </initialValue>
@@ -695,7 +655,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LP_CAN_NM_TX">
+        <variable name="ComConf_ComIPduGroup_LinChannel_0_RX">
           <initialValue>
             <simpleValue value="7" />
           </initialValue>
@@ -703,7 +663,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LinChannel_0_RX">
+        <variable name="ComConf_ComIPduGroup_LinChannel_0_TX">
           <initialValue>
             <simpleValue value="8" />
           </initialValue>
@@ -711,7 +671,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LinChannel_0_TX">
+        <variable name="ComConf_ComIPduGroup_LinRx">
           <initialValue>
             <simpleValue value="9" />
           </initialValue>
@@ -719,7 +679,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LinRx">
+        <variable name="ComConf_ComIPduGroup_LinTx">
           <initialValue>
             <simpleValue value="10" />
           </initialValue>
@@ -727,7 +687,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_LinTx">
+        <variable name="ComConf_ComIPduGroup_MLIN_RX">
           <initialValue>
             <simpleValue value="11" />
           </initialValue>
@@ -735,7 +695,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_MLIN_RX">
+        <variable name="ComConf_ComIPduGroup_MLIN_TX">
           <initialValue>
             <simpleValue value="12" />
           </initialValue>
@@ -743,7 +703,7 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_MLIN_TX">
+        <variable name="ComConf_ComIPduGroup_PT_CAN_RX">
           <initialValue>
             <simpleValue value="13" />
           </initialValue>
@@ -751,17 +711,9 @@
             <USINT />
           </type>
         </variable>
-        <variable name="ComConf_ComIPduGroup_PT_CAN_RX">
-          <initialValue>
-            <simpleValue value="14" />
-          </initialValue>
-          <type>
-            <USINT />
-          </type>
-        </variable>
         <variable name="ComConf_ComIPduGroup_PT_CAN_TX">
           <initialValue>
-            <simpleValue value="15" />
+            <simpleValue value="14" />
           </initialValue>
           <type>
             <USINT />
@@ -777,7 +729,7 @@
         </variable>
         <addData>
           <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-            <ObjectId>0e49bd57-670e-43bb-b652-8a166242ca18</ObjectId>
+            <ObjectId>20c7e887-a959-449f-bfac-1040869aef41</ObjectId>
           </data>
         </addData>
       </globalVars>
@@ -785,7 +737,7 @@
     <data name="http://www.3s-software.com/plcopenxml/projectstructure" handleUnknown="discard">
       <ProjectStructure>
         <Folder Name="Lin_CanSignals_easyConfig">
-          <Object Name="GVL_linCanSignals_easyConfig" ObjectId="0e49bd57-670e-43bb-b652-8a166242ca18" />
+          <Object Name="GVL_linCanSignals_easyConfig" ObjectId="20c7e887-a959-449f-bfac-1040869aef41" />
         </Folder>
       </ProjectStructure>
     </data>

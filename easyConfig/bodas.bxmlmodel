@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <bxml:Bxml xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bxml="http://www.example.org/bxml">
-  <metadata hardwareType="RC27-18/40" easyConfigVersion="3.17.0" bswVersion="v01.30-bs(basis:PVER BSW2003_40NM; 21)" modificationDate="2026-10-19T02:16:35.000+0000" responseId="0X18DAFA01" requestId="0X18DA01FA" easyConfigProjectId="be7f1f84-aa3a-4132-b8a6-1005a3287283" testerIPv4Address="192.168.0.100" ecuIPv4Address="192.168.0.1" testerLogicalAddress="0xE80" ecuLogicalAddress="0x100"/>
+  <metadata hardwareType="RC27-18/40" easyConfigVersion="3.17.0" bswVersion="v01.30-bs(basis:PVER BSW2003_40NM; 21)" modificationDate="2026-10-20T03:01:43.000+0000" responseId="0X18DAFA01" requestId="0X18DA01FA" easyConfigProjectId="be7f1f84-aa3a-4132-b8a6-1005a3287283" testerIPv4Address="192.168.0.100" ecuIPv4Address="192.168.0.1" testerLogicalAddress="0xE80" ecuLogicalAddress="0x100"/>
   <parameters>
     <parameter longName="DcmDspData_parameter_A800_u32" shortName="DID_0xA800_Param_00" bitLength="32" bitPosition="0" dataType="UINT32" bytePosition="0" maximumValue="4.294967295E9" minimumValue="0.0" safetyLabel="false"/>
     <parameter longName="DcmDspData_parameter_A800_s16" shortName="DID_0xA800_Param_01" bitLength="16" bitPosition="0" dataType="SINT16" bytePosition="4" maximumValue="32767.0" minimumValue="-32768.0" safetyLabel="false"/>
